@@ -1,0 +1,55 @@
+{
+	"title_article": {
+		"tag": "input",
+		"attributes": {
+			"type": "text"
+		},
+		"label": "Titre de l'article"
+	},
+	"date_article": {
+		"tag": "input",
+		"attributes": {
+			"type": "text"
+		},
+		"label": "Date de parution"
+	},
+	"author_article": {
+		"tag": "select",
+		"fromModel": {
+			"model": "core\\models\\ModelAuthentication",
+			"method": "all",
+			"value": "id_user",
+			"name": "login_user"
+		},
+		"label": "Auteur"
+	},
+	"hook_article": {
+		"tag": "textarea",
+		"label": "Texte d'introduction"
+	},
+	"content_article": {
+		"tag": "textarea",
+		"label": "Contenu de l'article"
+	},
+	"picture_article": {
+		"tag": "upload",
+		"fileType": "jpg|jpeg|png",
+		"label": "Illustration"
+	},
+	"tags_article": {
+		"tag": "input",
+		"attributes": {
+			"type": "text"
+		},
+		"label": "Tags"
+	},
+	"submit": {
+		"label": "",
+		"tag": "input",
+		"attributes": {
+			"type": "submit",
+			"value": "Soumettre l'article",
+			"class": "button"
+		}
+	}
+}

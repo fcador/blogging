@@ -1,0 +1,8 @@
+[
+    {
+        "default":true,
+        "label":"Articles",
+        "controller":"article",
+        "action":"listing"
+    }
+]

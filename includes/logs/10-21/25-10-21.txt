@@ -1,0 +1,5 @@
+[ 11h32m24s ] [::1] [ main ] [ warning ]		Tentative de connexion au backoffice <dev:dev>
+[ 15h23m15s ] [::1] [ main ] [ warning ]		Tentative de connexion au backoffice <user:user>
+[ 15h23m19s ] [::1] [ main ] [ warning ]		Tentative de connexion au backoffice <user:user>
+[ 16h56m01s ] [::1] [ main ] [ warning ]		Tentative de connexion au backoffice <test:test>
+[ 16h56m11s ] [::1] [ main ] [ warning ]		Tentative de connexion au backoffice <test:pass?>
